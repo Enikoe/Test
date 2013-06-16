@@ -32,6 +32,8 @@ public class Activator extends AbstractUIPlugin {
 		super.start(context);
 
 		plugin = this;
+		int bundleId = 12;
+		int bundle2 = 11;
 	}
 
   
