@@ -46,14 +46,12 @@ public class Activator extends AbstractUIPlugin {
 		super.stop(context);
 	}
 
-	/**
-	 * Returns the shared instance
-	 * 
-	 * @return the shared instance
-	 */
+	
 	public static Activator getDefault() {
+		//adding some test changes
 		return plugin;
 	}
+
 
 	/**
 	 * Returns an image descriptor for the image file at the given plug-in
