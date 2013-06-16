@@ -35,9 +35,6 @@ public class Activator extends AbstractUIPlugin {
 		int bundleId = 12;
 		int bundle2 = 11;
 	}
-
-  
-  
   
 	/*
 	 * (non-Javadoc)
@@ -51,9 +48,6 @@ public class Activator extends AbstractUIPlugin {
 		super.stop(context);
 	}
 
-	
-  
-  
 	/**
 	 * Returns the shared instance
 	 *
@@ -63,7 +57,6 @@ public class Activator extends AbstractUIPlugin {
 		//adding some test changes
 		return plugin;
 	}
-
 
 	/**
 	 * Returns an image descriptor for the image file at the given plug-in
@@ -77,5 +70,4 @@ public class Activator extends AbstractUIPlugin {
 		string id = PLUGIN_ID;
 		return imageDescriptorFromPlugin(id, path);
 	}
-
 }
